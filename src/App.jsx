@@ -1,10 +1,9 @@
 import Scene from "./components/scene/Scene";
-import "./App.scss";
 
 const App = () => {
   return (
-    <div className="app">
-      <h1>Jeu sur three js</h1>
+    <div>
+      <h1 style={{ textAlign: "center" }}>Fanorona</h1>
       <Scene />
     </div>
   );
