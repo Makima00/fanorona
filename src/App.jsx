@@ -1,9 +1,8 @@
-import Scene from "./components/scene/Scene";
+import Scene from './components/Scene';
 
 const App = () => {
   return (
-    <div>
-      <h1 style={{ textAlign: "center" }}>Fanorona</h1>
+    <div style={{ height: '100vh' }}>
       <Scene />
     </div>
   );
